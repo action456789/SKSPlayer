@@ -7,7 +7,24 @@
 //
 
 #import "LiveItem.h"
+#import "MJExtension/MJExtension.h"
 
 @implementation LiveItem
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName
+{
+    return @{  @"shareAddr" : @"share_addr"
+             , @"streamAddr" : @"stream_addr"
+              };
+}
+
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"creator": [Creator class] };
+}
+
+@end
+
+@implementation Creator
 
 @end

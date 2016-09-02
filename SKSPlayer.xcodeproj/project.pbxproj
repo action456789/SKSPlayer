@@ -50,7 +50,6 @@
 		101859371D77DD0E006929D1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101859361D77DD0E006929D1 /* CoreMedia.framework */; };
 		101859391D77DD18006929D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101859381D77DD18006929D1 /* AVFoundation.framework */; };
 		1018593B1D77DD21006929D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1018593A1D77DD21006929D1 /* AudioToolbox.framework */; };
-		1018593E1D78197C006929D1 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1018593D1D78197C006929D1 /* PlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,8 +128,6 @@
 		101859361D77DD0E006929D1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		101859381D77DD18006929D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1018593A1D77DD21006929D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		1018593C1D78197C006929D1 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
-		1018593D1D78197C006929D1 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,8 +226,6 @@
 			children = (
 				101858621D76D313006929D1 /* ViewController.h */,
 				101858631D76D313006929D1 /* ViewController.m */,
-				1018593C1D78197C006929D1 /* PlayerViewController.h */,
-				1018593D1D78197C006929D1 /* PlayerViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -417,7 +412,6 @@
 				101859281D77D7A4006929D1 /* UIImageView+WebCache.m in Sources */,
 				101859271D77D7A4006929D1 /* UIImageView+HighlightedWebCache.m in Sources */,
 				1018585E1D76D312006929D1 /* main.m in Sources */,
-				1018593E1D78197C006929D1 /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
